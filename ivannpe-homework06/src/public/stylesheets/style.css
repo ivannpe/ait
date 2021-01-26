@@ -1,0 +1,64 @@
+.card{
+	padding: 10px;
+	border: solid 1px #808080;
+	background-color: white;
+	display: inline-block;
+	border-radius: 10px;
+	font-size: 14pt;
+	color:black;
+    margin: 3px;
+}
+
+.card .value{
+	font-size:15pt;
+	font-family: sans-serif;
+}
+
+.card .suit
+{
+	background-image: url('./card.png');
+	height: 100px;
+	width: 90px;
+}
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/background-position-y */
+.card .Diamonds
+{
+	background-position-y: 100px;
+}
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/background-position-x */
+.card .Hearts
+{
+	background-position-x: 90px;
+}
+
+.card .Clubs
+{
+	background-position-x:90px;
+	background-position-y:100px;
+}
+h1 {
+    text-align: center;
+    font-size: 150%;
+
+}
+
+form {
+  text-align: center;
+  font-size: 200%;
+}
+
+.hide{
+  display: none;
+}
+
+.HIT{
+    position:absolute;
+    left: 45%;
+    margin-top:15%;
+}
+
+.STAND{
+    position:absolute;
+    left: 55%;
+    margin-top:15%;
+}
