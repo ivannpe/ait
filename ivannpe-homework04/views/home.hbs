@@ -1,0 +1,14 @@
+  
+  
+<h2>My Bears</h2>
+
+
+<div>
+    <ul>
+    {{#each arr as |bear|}}
+        <li class = "beardata"><img class="resize" src="{{{bear.imagePath}}}" align="left">; {{bear.label}}; {{bear.weight}} lbs.</li>
+    {{/each}}
+    </ul>
+</div>
+
+
